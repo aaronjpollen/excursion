@@ -1,8 +1,39 @@
 h1 {
-  font-family: Veranda;
   font-size: 50px;
-  font-weight: Normal;
+  font-weight: normal;
   color: white;
-  text-align: center;
+}
+
+h3 {
+  font-size: 16px;
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+* {
   background-color: black;
+}
+
+* {
+  text-align: center;
+}
+
+* {
+  font-family: Veranda;
+}
+
+.travel h1 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+.travel h3,
+.copyright h3 {
+  font-size: 21px;
+  color: grey;
+  text-decoration: none;
+}
+
+.copyright h3 {
+  text-align: right;
 }
